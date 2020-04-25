@@ -54,8 +54,8 @@ for i in range(100000):
 #------------------------------------------------------------------MODEL-------------------------------------------------------------------
 #------------------------------------------------------------------------------------------------------------------------------------------
 
-nOfepochs = 3
-nOfFolds = 2
+nOfepochs = 4000
+nOfFolds = 5
 
 #rmse, mae, lss, vrmse, vmae, vlss will hold average loss, RMSE and MAE values per epoch for training and validation data
 rmse = vrmse = mae = vmae = lss = vlss = np.zeros((nOfepochs))
